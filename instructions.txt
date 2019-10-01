@@ -1,0 +1,46 @@
+Steps to run the code:-
+
+1. To run the code in jupyter notebook
+	->first open jupyter notebook and open cabFare.ipynb file in jupyter notebook
+	->now import all the packages if packages are not installed then first install all the packages by  		
+	using "pip install packagename" command.
+	-> once imported all the packages now set the path where train and datasets are saved.
+	-> Now run all the codes by clicking shift+enter buttons together.
+
+2. To run the code in R studio.
+	->open Rstudio and open cabFare.r file by going into files and then open
+	->Now load all libraries. if libraries are not installed then first install libraries by using 		
+	"install.packages("package name")" command.
+	->Now after importing all the libraries set the path where train and test datasets are saved.
+	->Now run all the code by clicking ctrl+enter buttons together.
+
+
+*****************************To run the code from Dos prompt******************
+
+1. To run the python code:-
+	-> Either run cabFare.py code or run cabFare.ipynb
+	-> To run cabFare.py first open it and replace oschdir("path") with your path where you have stored 		
+	the train and test data. Now open the terminal from the directory where your code is saved and type 		
+	command "python3 cabFare.py"
+	->To run cabFare.ipynb file first open terminal and install "runipy" by using following command 	
+	"pip3 install runipy"
+	-> Now open terminal and run "runipy -o cabFare.ipynb"
+2. To run R code from terminal:-
+	->Find the "littler" in repository and install it.
+	-> Once installed litter package open cabFare.R file and replace path from your path
+	-> now open terminal from the location where you have stored the r code
+	-> Now run command "Rscript cabFare.r"
+
+**********************************How to Deploy the model****************************
+
+All the task done in jupyter or R might not be understandable to non-technical users or clients. So
+we need to deploy the model for production using GUI. We can use two types of tool that is
+Online(cloud) tools or offline tools.
+	->In online tools we use cloud services where our R or Python code runs as a back end engine. And
+	online tool takes output of R or python and presents it in Graphical format.
+	->Similarly, in offline tools we use different programming languages like html,php,css for developing User Interface
+	-> Our R our python code will be linked with this UI and will run as a back end engine.
+
+	Interface. Our R our python code will be linked with this UI and will run as a back end engine.
+	Output of R or Python code will be shown in Graphical format to users.
+
