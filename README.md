@@ -1,0 +1,2 @@
+# Cab-Fare-Prediciton
+There is a cab rental start-up company which wants to launch a cab service. They have successfully run the pilot project and now want to launch their cab service across the country. They have collected the historical data from their pilot project and now have a requirement to apply analytics for fare prediction. The aim of the project is to design a system that predicts the fare amount for a cab ride in the city.
